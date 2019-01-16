@@ -10,6 +10,7 @@
 #Note:
 #Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?
 
+#Runtime: 52 ms
 class Solution(object):
     def missingNumber(self, nums):
         """
@@ -25,4 +26,5 @@ class Solution(object):
         for number in range(n):
             if number not in num_set:
                 return number
-        
+
+            
