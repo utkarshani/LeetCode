@@ -19,5 +19,6 @@ class Solution(object):
         """
         output=0
         for x in J:
+            #count the occurences of x in S
             output=S.count(x)+output
         return output
